@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f341fcb3-fd7c-4652-8d8f-14049327565e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/offer/base/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/offer/base/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/offer/剑指offer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/offer/树相关/树的基本操作/OperateTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/offer/树相关/树的基本操作/树的基本操作.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/offer/树相关/重建二叉树/ReConstructBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/offer/树相关/重建二叉树/重建二叉树.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/offer/模板.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f341fcb3-fd7c-4652-8d8f-14049327565e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566638590985</updated>
-      <workItem from="1566638592302" duration="13456000" />
+      <workItem from="1566638592302" duration="13695000" />
     </task>
     <servers />
   </component>
