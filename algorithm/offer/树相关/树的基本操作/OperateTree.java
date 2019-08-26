@@ -7,6 +7,8 @@ import java.util.Stack;
 
 /**
  * 二叉树的一些基本操作
+ * <p>
+ * 一些函数变成的static的，为了方便其他的类用
  *
  * @author lojze liu
  * @since 2019/8/24 10:04 下午
@@ -58,7 +60,7 @@ public class OperateTree {
      * 前序遍历-递归版
      * 根左右
      */
-    private void prePrintInRecursive(TreeNode root) {
+    public static void prePrintInRecursive(TreeNode root) {
         if (root != null) {
             System.out.print(root.val);
             prePrintInRecursive(root.left);
@@ -116,7 +118,7 @@ public class OperateTree {
     /**
      * 中序遍历-递归版
      */
-    private void midPrintInRecursive(TreeNode root) {
+    public static void midPrintInRecursive(TreeNode root) {
         if (root != null) {
             midPrintInRecursive(root.left);
             System.out.print(root.val);
@@ -159,7 +161,7 @@ public class OperateTree {
     /**
      * 后续遍历-递归版
      */
-    private void endPrintInRecursive(TreeNode root) {
+    public static void endPrintInRecursive(TreeNode root) {
         if (root != null) {
             endPrintInRecursive(root.left);
             endPrintInRecursive(root.right);
@@ -174,7 +176,7 @@ public class OperateTree {
         //TODO
     }
 
-    private static TreeNode buildTree() {
+    public static TreeNode buildTree() {
         TreeNode root = new TreeNode(1);
         TreeNode r2 = new TreeNode(2);
         TreeNode r3 = new TreeNode(3);
