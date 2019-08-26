@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f341fcb3-fd7c-4652-8d8f-14049327565e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/offer/树相关/重建二叉树/ReConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/offer/树相关/重建二叉树/ReConstructBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/offer/树相关/重建二叉树/重建二叉树.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/offer/树相关/重建二叉树/重建二叉树.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -230,17 +230,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithm/offer/树相关/重建二叉树/ReConstructBinaryTree.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$ReConstructBinaryTree_reConstructBinaryTree.ic" NAME="ReConstructBinaryTree.reConstructBinaryTree Coverage Results" MODIFIED="1566654104338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
