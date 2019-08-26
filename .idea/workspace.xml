@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f341fcb3-fd7c-4652-8d8f-14049327565e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/offer/树相关/重建二叉树/重建二叉树.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/offer/树相关/重建二叉树/重建二叉树.md" afterDir="false" />
-    </list>
+    <list default="true" id="f341fcb3-fd7c-4652-8d8f-14049327565e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
