@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f341fcb3-fd7c-4652-8d8f-14049327565e" name="Default Changelist" comment="" />
+    <list default="true" id="f341fcb3-fd7c-4652-8d8f-14049327565e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/offer/树相关/树的子结构/TreeHasSubtree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/offer/树相关/树的子结构/树的子结构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/offer/树相关/树的基本操作/OperateTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/offer/树相关/树的基本操作/OperateTree.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReConstructBinaryTree.test">
+  <component name="RunManager" selected="JUnit.TreeHasSubtree.test">
     <configuration name="OperateTree.testMain (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liu" />
       <extension name="coverage">
@@ -140,22 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReConstructBinaryTree.reConstructBinaryTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offer.树相关.重建二叉树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="offer.树相关.重建二叉树" />
-      <option name="MAIN_CLASS_NAME" value="offer.树相关.重建二叉树.ReConstructBinaryTree" />
-      <option name="METHOD_NAME" value="reConstructBinaryTree(int[],int[])" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReConstructBinaryTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -172,13 +161,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeHasSubtree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="offer.树相关.树的子结构.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="offer.树相关.树的子结构" />
+      <option name="MAIN_CLASS_NAME" value="offer.树相关.树的子结构.TreeHasSubtree" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeHasSubtree.test" />
         <item itemvalue="JUnit.ReConstructBinaryTree.test" />
         <item itemvalue="JUnit.OperateTree.testMain (1)" />
         <item itemvalue="JUnit.OperateTree.testMain" />
         <item itemvalue="JUnit.ReConstructBinaryTree.reConstructBinaryTree (1)" />
-        <item itemvalue="JUnit.ReConstructBinaryTree.reConstructBinaryTree" />
       </list>
     </recent_temporary>
   </component>

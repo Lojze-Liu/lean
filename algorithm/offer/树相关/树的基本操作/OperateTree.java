@@ -177,6 +177,19 @@ public class OperateTree {
     }
 
     public static TreeNode buildTree() {
+               /* tree:
+                1
+               /  \
+              2    3
+             /    /  \
+            4    5    6
+             \       /
+              7     8
+
+           前序:  12473568
+           中序:  47215386
+           后序:  74258631
+         */
         TreeNode root = new TreeNode(1);
         TreeNode r2 = new TreeNode(2);
         TreeNode r3 = new TreeNode(3);
@@ -195,5 +208,16 @@ public class OperateTree {
         r6.left = r8;
 
         return root;
+    }
+
+    public static TreeNode buildTreeV2() {
+        TreeNode r3 = new TreeNode(3);
+        TreeNode r5 = new TreeNode(5);
+        TreeNode r6 = new TreeNode(6);
+        TreeNode r8 = new TreeNode(8);
+        r3.left = r5;
+        r3.right = r6;
+        r6.left = r8;
+        return r3;
     }
 }
