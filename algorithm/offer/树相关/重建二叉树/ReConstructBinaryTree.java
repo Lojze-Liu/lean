@@ -22,8 +22,10 @@ public class ReConstructBinaryTree {
 
         TreeNode newRoot = reConstructBinaryTree(pre, mid);
 
+        System.out.println("target:");
         OperateTree.prePrintInRecursive(targetRoot);
         System.out.println();
+        System.out.println("new:");
         OperateTree.prePrintInRecursive(newRoot);
 
     }
@@ -32,23 +34,18 @@ public class ReConstructBinaryTree {
      * 重建二叉树
      */
     private TreeNode reConstructBinaryTree(int[] pre, int[] mid) {
-
-        if (pre == null || pre.length == 0) {
-            return ;
+        if (pre.length == 0 || pre.length == 0) {
+            return null;
         }
-
         TreeNode root = new TreeNode(pre[0]);
+        // 在中序中找到前序的根
         for (int i = 0; i < mid.length; i++) {
             if (mid[i] == pre[0]) {
-                int[] prePre = Arrays.copyOfRange(pre, 0, i + 1);
-                int[] midMid = Arrays.copyOfRange(mid, 0, i + 1);
-                root.left = reConstructBinaryTree(prePre, midMid);
-
-
-                Arrays.copyOfRange(pre, i + 1, pre.length);
-                Arrays.copyOfRange(mid, i + 1, mid.length);
-
-                root.right = reConstructBinaryTree(prePre, midMid);
+                // 左子树
+                root.left = reConstructBinaryTree(Arrays.copyOfRange(pre, 1, i + 1), Arrays.copyOfRange(mid, 0, i));
+                // 右子树
+                root.right = reConstructBinaryTree(Arrays.copyOfRange(pre, i + 1, pre.length), Arrays.copyOfRange(mid, i + 1, mid.length));
+                break;
             }
         }
         return root;
