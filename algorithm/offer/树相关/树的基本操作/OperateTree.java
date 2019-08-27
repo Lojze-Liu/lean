@@ -3,6 +3,8 @@ package offer.树相关.树的基本操作;
 import offer.base.TreeNode;
 import org.junit.Test;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -172,12 +174,41 @@ public class OperateTree {
     /**
      * 后序遍历-循环法
      */
-    private void endPrintNotRecursive() {
+    private void endPrintNotRecursive(TreeNode root) {
         //TODO
+
+
+
+
+
+    }
+
+    /**
+     * 层序遍历
+     */
+    private void t(TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        queue.offer(root);
+
+        while (!queue.isEmpty()){
+            //出队
+            TreeNode poll = queue.poll();
+            System.out.println(poll.val);
+            if(poll.left != null){
+                queue.offer(poll.left);
+            }
+
+
+        }
+
+
+        //     3  2  1
+
     }
 
     public static TreeNode buildTree() {
-               /* tree:
+         /* tree:
                 1
                /  \
               2    3
@@ -185,10 +216,6 @@ public class OperateTree {
             4    5    6
              \       /
               7     8
-
-           前序:  12473568
-           中序:  47215386
-           后序:  74258631
          */
         TreeNode root = new TreeNode(1);
         TreeNode r2 = new TreeNode(2);
