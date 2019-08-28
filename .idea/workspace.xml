@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f341fcb3-fd7c-4652-8d8f-14049327565e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/offer/树相关/树的基本操作/OperateTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/offer/树相关/树的基本操作/OperateTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/offer/树相关/树的子结构/TreeHasSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/offer/树相关/树的子结构/TreeHasSubtree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OperateTree.testMain">
+  <component name="RunManager" selected="JUnit.TreeHasSubtree.test">
     <configuration name="OperateTree.testMain (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liu" />
       <extension name="coverage">
@@ -176,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OperateTree.testMain" />
         <item itemvalue="JUnit.TreeHasSubtree.test" />
+        <item itemvalue="JUnit.OperateTree.testMain" />
         <item itemvalue="JUnit.ReConstructBinaryTree.test" />
         <item itemvalue="JUnit.OperateTree.testMain (1)" />
         <item itemvalue="JUnit.ReConstructBinaryTree.reConstructBinaryTree (1)" />

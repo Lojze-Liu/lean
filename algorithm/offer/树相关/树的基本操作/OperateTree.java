@@ -245,4 +245,15 @@ public class OperateTree {
         r6.left = r8;
         return r3;
     }
+
+    public static TreeNode buildTreeV3() {
+        TreeNode r3 = new TreeNode(3);
+        TreeNode r5 = new TreeNode(5);
+        TreeNode r6 = new TreeNode(6);
+        TreeNode r7 = new TreeNode(7);
+        r3.left = r5;
+        r3.right = r6;
+        r6.left = r7;
+        return r3;
+    }
 }
