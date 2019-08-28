@@ -56,6 +56,9 @@ public class OperateTree {
         System.out.println("后序非递归:");
         endPrintInRecursive(treeRoot);
         System.out.println();
+
+        System.out.println("层序遍历:");
+        seqTraverse(treeRoot);
     }
 
     /**
@@ -186,25 +189,20 @@ public class OperateTree {
     /**
      * 层序遍历
      */
-    private void t(TreeNode root) {
+    public void seqTraverse(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
-
         queue.offer(root);
-
         while (!queue.isEmpty()){
             //出队
             TreeNode poll = queue.poll();
-            System.out.println(poll.val);
+            System.out.print(poll.val);
             if(poll.left != null){
                 queue.offer(poll.left);
             }
-
-
+            if(poll.right != null){
+                queue.offer(poll.right);
+            }
         }
-
-
-        //     3  2  1
-
     }
 
     public static TreeNode buildTree() {
