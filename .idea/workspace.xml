@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f341fcb3-fd7c-4652-8d8f-14049327565e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/offer/树相关/树的基本操作/OperateTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/offer/树相关/树的基本操作/OperateTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/offer/树相关/树的基本操作/树的基本操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/offer/树相关/树的基本操作/树的基本操作.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/offer/树相关/树的子结构/TreeHasSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/offer/树相关/树的子结构/TreeHasSubtree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +47,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
