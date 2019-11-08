@@ -15,9 +15,10 @@ public class ThreeSum {
     @Test
     public void Test() {
         int[] a = {-4, -2, 1, -5, -4, -4, 4, -2, 0, 4, 0, -2, 3, 1, -5, 0};
-        System.out.println(threeSum2(a));
+        System.out.println(threeSum(a));
     }
-    private List<List<Integer>> threeSum2(int[] nums) {
+
+    private List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         int length = nums.length;
         if (length < 3) {
