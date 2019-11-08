@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f341fcb3-fd7c-4652-8d8f-14049327565e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/leetcode/数字/三数之和/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/leetcode/数字/三数之和/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +193,7 @@
       <workItem from="1571811119966" duration="582000" />
       <workItem from="1571914133640" duration="1790000" />
       <workItem from="1572835529368" duration="3432000" />
-      <workItem from="1573110324805" duration="576000" />
+      <workItem from="1573110324805" duration="850000" />
     </task>
     <servers />
   </component>
