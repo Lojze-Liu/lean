@@ -2,12 +2,9 @@ package leetcode.数字.三数之和;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
- *
  * @author lojze liu
  * @since 2019/9/19 8:35 上午
  */
@@ -43,8 +40,12 @@ public class ThreeSum {
                 int sum = nums[L] + nums[R] + nums[i];
                 if (sum == 0) {
                     result.add(Arrays.asList(nums[L], nums[R], nums[i]));
-                    while (L < R && nums[L] == nums[L + 1]) L++; // 去重
-                    while (L < R && nums[R] == nums[R - 1]) R--; // 去重
+                    while (L < R && nums[L] == nums[L + 1]) {
+                        L++; // 去重
+                    }
+                    while (L < R && nums[R] == nums[R - 1]) {
+                        R--; // 去重
+                    }
                     L++;
                     R--;
 
