@@ -30,6 +30,21 @@ public class QuickSort {
 
     private void quickSort(int[] target, int start, int end) {
 
+        int temp = target[0];
+
+        //当哨兵碰到一起的时候，停止排序
+        while(start < end){
+
+            while (target[end] > temp && start < end) {
+                end--;
+            }
+            while (target[start] < temp && start < end) {
+                start--;
+            }
+
+
+        }
+
 
     }
 

@@ -15,17 +15,17 @@ public class BinarySearch {
 
     @Test
     public void testBinarySearch() {
-        Assert.assertEquals(1, binarySearch(build(), 1));
-        Assert.assertEquals(4, binarySearch(build(), 5));
-        Assert.assertEquals(6, binarySearch(build(), 8));
-        Assert.assertEquals(2, binarySearch(build(), 3));
-        Assert.assertEquals(3, binarySearch(build(), 4));
-        Assert.assertEquals(0, binarySearch(build(), 0));
-        Assert.assertEquals(5, binarySearch(build(), 7));
-        Assert.assertEquals(-1, binarySearch(build(), 9));
+        Assert.assertEquals(1, binarySearch2(build(), 1));
+        Assert.assertEquals(4, binarySearch2(build(), 5));
+        Assert.assertEquals(6, binarySearch2(build(), 8));
+        Assert.assertEquals(2, binarySearch2(build(), 3));
+        Assert.assertEquals(3, binarySearch2(build(), 4));
+        Assert.assertEquals(0, binarySearch2(build(), 0));
+        Assert.assertEquals(5, binarySearch2(build(), 7));
+        Assert.assertEquals(-1, binarySearch2(build(), 9));
     }
 
-    private int binarySearch(int[] aidArray, int target) {
+    private int binarySearch2(int[] aidArray, int target) {
         Arrays.sort(aidArray);
         int l = 0;
         int r = aidArray.length - 1;
