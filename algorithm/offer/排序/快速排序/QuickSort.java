@@ -13,48 +13,57 @@ import java.util.Arrays;
 public class QuickSort {
 
     @Test
-    private void test() {
+    public void test() {
         int[] b1 = build();
         Arrays.sort(b1);
         print(b1);
 
 
         int[] b2 = build();
-        quickSort(b2);
+        quickSort(b2, 0, b2.length - 1);
         print(b2);
     }
 
-    private void quickSort(int[] target) {
-
-    }
 
     private void quickSort(int[] target, int start, int end) {
-
-        int temp = target[0];
-
-        //当哨兵碰到一起的时候，停止排序
-        while(start < end){
-
-            while (target[end] > temp && start < end) {
-                end--;
-            }
-            while (target[start] < temp && start < end) {
-                start--;
-            }
-
-
+        if (start < end) {
+            int i = one(target, start, end);    //划分数组并获取比较元素的位置
+            quickSort(target, start, i - 1);     //对比较元素左边进行排序
+            quickSort(target, i + 1, end);     //对比较元素右边进行排序
         }
+    }
 
-
+    private int one(int[] target, int start, int end) {
+        int pivot = target[start];
+        int low = start;
+        int high = end;
+        while (low < high) {
+            while (low < high && target[high] >= pivot) {
+                high--;
+            }
+            while (low < high && target[low] <= pivot) {
+                low++;
+            }
+            if (low == high) {
+                target[start] = target[low];
+                target[low] = pivot;
+            } else {
+                int temp = target[low];
+                target[low] = target[high];
+                target[high] = temp;
+            }
+        }
+        return low;
     }
 
     private int[] build() {
-        return new int[]{3, 1, 2, 4, 6, 9, 10, 5};
+        return new int[]{3, 1, 2, 4, 6, 9, 10, 0, 5};
     }
 
     private void print(int[] aid) {
         for (int i : aid) {
-            System.out.println(i);
+            System.out.print(i);
         }
+        System.out.println();
     }
 }
