@@ -11,7 +11,6 @@ public class Sort {
     @Test
     public void test() {
         int[] array = new int[]{5, 8, 2, 3, 9, 2, 1, 7};
-
         sort(array);
 
         for (int i : array) {
